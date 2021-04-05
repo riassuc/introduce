@@ -1,1 +1,163 @@
-test
+header {
+    position: fixed;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0px 10px 30px 10px;
+}
+/* 모바일에서 작아지게 */
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.scroll {
+    color: #9c9c9c;
+}
+
+.mode {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.darkmode_wrap {
+    width: 20%;
+    margin: 0px;
+}
+
+.darkmode_wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 2000px;
+    background-color: #e3e8e8;
+    text-align: center;
+}
+
+.main {
+    height: 100vh;
+}
+
+.main_wrap {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.main_wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.icons_head {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 60vh;
+
+}
+
+.contact_wrap {
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.contact_wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.icons {
+    height: 40vh;
+}
+
+.icons_row {
+    display: inline-flex;
+}
+
+.blog {
+    margin: 20px;
+}
+
+.github {
+    margin: 20px;
+}
+
+.mail {
+    margin: 20px;
+}
+
+.icons_row img {
+    width: 10vh;
+}
+
+.article {
+    width: 50vw;
+    text-align: left;
+    height: auto;
+}
+
+.pung_wrap {
+    width: 40%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.pung_wrap img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1050px){
+    h1 {
+        font-size: 3em;
+        margin: 0px 10px 50px 10px;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+    
+    h4{
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .article {
+        width: 75vw;
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px){
+    .icons_row img {
+        width: 15vw;
+    }
+}
