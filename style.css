@@ -35,12 +35,12 @@ h4 {
     text-align: center;
 }
 
-.darkmode_wrap {
+.daymode_wrap {
     width: 20%;
     margin: 0px;
 }
 
-.darkmode_wrap img {
+.daymode_wrap img {
     width: 100%;
     height: auto;
 }
@@ -50,7 +50,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 2000px;
+    height: auto;
     background-color: #e3e8e8;
     text-align: center;
 }
