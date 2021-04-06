@@ -13,7 +13,7 @@ function daynighthandeler(){
         bgColor.style.backgroundColor = "#666666";
         daynightmode.style.color = "#e3e3e3";
         scrolltext.style.color = "#b8b8b8";
-        clickImage.src = "images/memoticon/nightmode.png"
+        clickImage.src = "images/memoticon/nightmode.png";
         innerText.innerText = "Night";
         daynightmode.className = 'night';
         blogImage.src = "images/contact/blog_night.png"
@@ -23,7 +23,7 @@ function daynighthandeler(){
         bgColor.style.backgroundColor = "#e3e8e8";
         daynightmode.style.color = "black";
         scrolltext.style.color = "#9c9c9c";
-        clickImage.src = "images/memoticon/daymode.png"
+        clickImage.src = "images/memoticon/daymode.png";
         innerText.innerText = "Day";
         daynightmode.className = 'day';
         blogImage.src = "images/contact/blog.png"
@@ -32,4 +32,3 @@ function daynighthandeler(){
         }
     }
 clickImage.addEventListener("click", daynighthandeler);
-

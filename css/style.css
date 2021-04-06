@@ -154,6 +154,12 @@ h4 {
         margin: 0;
     }
 
+    .main_wrap img {
+        width: 100%;
+        height: auto;
+        margin-top: 9vh;
+    }
+
     .article {
         width: 75vw;
         text-align: left;
