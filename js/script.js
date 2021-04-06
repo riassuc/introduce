@@ -16,9 +16,9 @@ function daynighthandeler(){
         clickImage.src = "images/memoticon/nightmode.png";
         innerText.innerText = "Night";
         daynightmode.className = 'night';
-        blogImage.src = "images/contact/blog_night.png"
-        githubImage.src = "images/contact/github_night.png"
-        mailImage.src = "images/contact/mail_night.png"
+        blogImage.src = "images/contact/blog_night.png";
+        githubImage.src = "images/contact/github_night.png";
+        mailImage.src = "images/contact/mail_night.png";
     } else if (daynightmode.className === 'night'){
         bgColor.style.backgroundColor = "#e3e8e8";
         daynightmode.style.color = "black";
@@ -26,9 +26,9 @@ function daynighthandeler(){
         clickImage.src = "images/memoticon/daymode.png";
         innerText.innerText = "Day";
         daynightmode.className = 'day';
-        blogImage.src = "images/contact/blog.png"
-        githubImage.src = "images/contact/github.png"
-        mailImage.src = "images/contact/mail.png"
+        blogImage.src = "images/contact/blog.png";
+        githubImage.src = "images/contact/github.png";
+        mailImage.src = "images/contact/mail.png";
         }
     }
 clickImage.addEventListener("click", daynighthandeler);
